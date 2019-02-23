@@ -33,6 +33,7 @@ h2{
 }
 
 body {
+    height: 99%;
     color: #777777;
     background-color: #ffffff;
     border-color: #cccccc;
@@ -40,12 +41,13 @@ body {
     background-image: url("../images/gravel.png");
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
-
+ 
 .content {
+    padding: 15px;
     flex: 1 0 auto;
-  }
-
+}
 
 #bio-image {
     float: left;
@@ -55,23 +57,55 @@ body {
 
 section {
     width: 960px;
-    align-self: center;
     background-color: #ffffff; 
-    overflow: auto; 
+    overflow: auto;  
+    margin-left: 20%;
+    margin-right: 20%;
 }
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+
+.project {
+    margin: 20px;
+    float: left;
+    overflow: auto;
+    position: relative;
+}
+
+h3{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.project-name {
+    z-index: 1;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+}
+
 
 footer {
     border-top: 8px solid #4aaaa5;
     background-color: #ffffff;
-    float: left;
     flex-shrink: 0;
 }
 
 input{
-    widows: 960px;
+    width: 90%
 }
+
 
 .button{
     background-color: #4aaaa5;
     color: #ffffff;
+    width: 10%;
 }
