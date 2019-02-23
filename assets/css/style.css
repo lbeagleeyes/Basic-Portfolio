@@ -14,11 +14,13 @@ header {
 h1 {
     background-color: #4aaaa5;
     padding: 15px;
+    padding-left: 0px;
     color: #ffffff;
     width: 300px;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
 }
@@ -26,10 +28,20 @@ h1 {
 nav{
     float: right;
     padding: 20px;
+    color: #777777;
+}
+
+.navlinks:link{
+    color: #777777;
+}
+
+.navlinks:visited{
+    color:#777777;
 }
 
 h2{
     color:#4aaaa5;
+    width: 960px;
 }
 
 body {
@@ -45,8 +57,7 @@ body {
 }
  
 .content {
-    padding: 15px;
-    flex: 1 0 auto;
+    padding-left: 15px;
 }
 
 #bio-image {
@@ -57,10 +68,15 @@ body {
 
 section {
     width: 960px;
-    background-color: #ffffff; 
-    overflow: auto;  
+    background-color: #ffffff;
+    overflow: auto;
     margin-left: 20%;
     margin-right: 20%;
+    padding: 15px;
+}
+
+.headersec{
+    padding-left: 0px;
 }
 
 .projects {
