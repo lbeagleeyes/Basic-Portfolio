@@ -58,6 +58,7 @@ body {
  
 .content {
     padding-left: 15px;
+    margin-bottom   : 20px;
 }
 
 #bio-image {
@@ -117,6 +118,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    z-index: 2;
 }
 
 input{
